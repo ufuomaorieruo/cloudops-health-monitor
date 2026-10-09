@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudOps Health Monitor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">C</span>
+      <div>
+        <h1>CloudOps</h1>
+        <p>HEALTH MONITOR</p>
+      </div>
+    </div>
+    <div class="environment">
+      <span class="status-dot"></span>
+      Development Environment
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="welcome">
+      <div>
+        <p class="eyebrow">INFRASTRUCTURE OVERVIEW</p>
+        <h2>System Health Dashboard</h2>
+        <p class="subtitle">Monitor your application's health and availability.</p>
+      </div>
+      <div class="live-status">
+        <span class="status-dot"></span>
+        All systems operational
+      </div>
+    </section>
+
+    <section class="metrics">
+      <article class="metric-card">
+        <div class="metric-heading">
+          <span>Application Status</span>
+          <span class="metric-icon">✓</span>
+        </div>
+        <h3 class="healthy">Healthy</h3>
+        <p>Application is responding</p>
+      </article>
+
+      <article class="metric-card">
+        <div class="metric-heading">
+          <span>Application Version</span>
+          <span class="metric-icon">⌘</span>
+        </div>
+        <h3>v1.0.0</h3>
+        <p>Current release</p>
+      </article>
+
+      <article class="metric-card">
+        <div class="metric-heading">
+          <span>Environment</span>
+          <span class="metric-icon">☁</span>
+        </div>
+        <h3>Development</h3>
+        <p>Active deployment environment</p>
+      </article>
+
+      <article class="metric-card">
+        <div class="metric-heading">
+          <span>Health Endpoint</span>
+          <span class="metric-icon">↗</span>
+        </div>
+        <h3 class="healthy">Available</h3>
+        <p><code>/health</code></p>
+      </article>
+    </section>
+
+    <section class="details-card">
+      <div class="section-heading">
+        <div>
+          <h3>Service Overview</h3>
+          <p>Application details and health-check information</p>
+        </div>
+        <span class="badge">MONITORING ACTIVE</span>
+      </div>
+
+      <div class="service-row">
+        <div class="service-name">
+          <span class="service-icon">API</span>
+          <div>
+            <strong>CloudOps Health API</strong>
+            <p>HTTP health-check service</p>
+          </div>
+        </div>
+        <span class="service-status">
+          <span class="status-dot"></span> Operational
+        </span>
+      </div>
+
+      <div class="info-grid">
+        <div>
+          <span>Service endpoint</span>
+          <strong>/health</strong>
+        </div>
+        <div>
+          <span>HTTP method</span>
+          <strong>GET</strong>
+        </div>
+        <div>
+          <span>Expected response</span>
+          <strong>200 OK</strong>
+        </div>
+        <div>
+          <span>Release</span>
+          <strong>1.0.0</strong>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>CloudOps Health Monitor</span>
+      <span>Built for cloud reliability and observability</span>
+    </footer>
+  </main>
+</body>
+</html>
